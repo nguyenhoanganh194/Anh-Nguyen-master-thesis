@@ -52,9 +52,6 @@ To set up the project, follow these steps:
 
 6. Once the project is open in the Unity Editor, you can proceed with running and modifying the project as described in the [Usage](#usage) section.
 
-[Instructions to set up and run the code]
-
-
 ## Usage
 
 To use the code, follow these steps:
