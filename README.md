@@ -51,12 +51,33 @@ cd thesis-code
 
 [Instructions on how to use the code, including examples and sample commands]
 
+## Usage
+
+To use the code, follow these steps:
+
+1. Open the Unity project in the Unity Editor.
+
+2. Open the scene named "Preloader."
+
+3. Run the scene to initialize the game.
+
+4. If desired, navigate to the "DOP Simulation" or "OOP Simulation" scene in the Unity Editor to explore simulations using Data-Oriented Programming (DOP) or Object-Oriented Programming (OOP) paradigms, respectively.
+
+5. Modify configurations or parameters as needed in the respective scenes.
+
+6. Run the scenes to observe the simulations and analyze performance metrics.
+
+7. Experiment with different settings and configurations to further understand the differences between DOP and OOP approaches in mobile game development.
+
+8. [Additional instructions, if any]
+
 ## Contributing
 
 If you would like to contribute to this project, feel free to submit a pull request. Contributions, bug reports, and feature requests are welcome.
 
 ## License
 
-[Specify the license under which the code is distributed, e.g., MIT License, Apache License, etc.]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ```
+
