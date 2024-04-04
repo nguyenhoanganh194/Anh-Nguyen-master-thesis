@@ -27,29 +27,33 @@ This repository hosts the codebase used in conducting experiments, analyzing dat
 ### Prerequisites
 
 Before running the code, ensure you have the following prerequisites installed:
-
-- Unity Engine
-- [Additional prerequisites, if any]
+- Unity Engine v2022.2.21f or above.
+- Git
 
 ### Installation
 
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/thesis-code.git
+git clone https://github.com/nguyenhoanganh194/Anh-Nguyen-master-thesis.git
 ```
 
-Navigate to the project directory:
+To set up the project, follow these steps:
 
-```bash
-cd thesis-code
-```
+1. Ensure you have Unity Hub installed on your system. If not, download and install it from the [Unity website](https://unity.com/).
+
+2. Open Unity Hub and click on the "Projects" tab.
+
+3. Click on the "Add" button and navigate to the directory where you cloned this repository.
+
+4. Select the root folder of the Unity project and click "Open."
+
+5. Unity Hub will now recognize the project. Click on it to open the project in the Unity Editor.
+
+6. Once the project is open in the Unity Editor, you can proceed with running and modifying the project as described in the [Usage](#usage) section.
 
 [Instructions to set up and run the code]
 
-## Usage
-
-[Instructions on how to use the code, including examples and sample commands]
 
 ## Usage
 
@@ -67,9 +71,9 @@ To use the code, follow these steps:
 
 6. Run the scenes to observe the simulations and analyze performance metrics.
 
-7. Experiment with different settings and configurations to further understand the differences between DOP and OOP approaches in mobile game development.
+7. Experiment with different settings and configurations to further understand the differences between DOP and OOP approaches. You can do this directly in the Unity Editor or build the project and run it on any device for real-world testing.
 
-8. [Additional instructions, if any]
+
 
 ## Contributing
 
