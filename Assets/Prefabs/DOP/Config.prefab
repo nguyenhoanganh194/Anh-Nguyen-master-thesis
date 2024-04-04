@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &618094296350858843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6749001149996052688}
+  - component: {fileID: 2868071321672036250}
+  - component: {fileID: 4540430241268810335}
+  - component: {fileID: 2026378962309058452}
+  - component: {fileID: 6447224301430714198}
+  m_Layer: 0
+  m_Name: Config
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6749001149996052688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618094296350858843}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2868071321672036250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618094296350858843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5273b3ffcc9f0419d2b0563463f6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  homePrefab: {fileID: 4564355054723898845, guid: 42ee2db2bf91bbe468df3f090bd1f5ad,
+    type: 3}
+  resourcePrefab: {fileID: 3043097669678686087, guid: 79e582fb61dd7724892a7c9fee5d21cd,
+    type: 3}
+  mapSize: 128
+--- !u!114 &4540430241268810335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618094296350858843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5db8e4d83f2c85458dea359b49c9795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  antPrefab: {fileID: 7682677627663218339, guid: 8d7c700fbe7c0bc4084e5e7fd9da2c85,
+    type: 3}
+  antTargetSpeed: 0.1
+  antAccel: 0.07
+  antCount: 10000
+  antScale: 0.5
+  randomSteerStrength: 8
+  resourceSteerStrength: 2.3
+--- !u!114 &2026378962309058452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618094296350858843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4871cdff58c70743917791e9fa33438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePrefab: {fileID: 4497485142559760226, guid: 24bb24f3c954dea4a8b54e2686946f9e,
+    type: 3}
+  obstacleSize: 1.5
+  ringCount: 3
+  bucketResolution: 16
+  wallSteerStrength: 7
+  wallSteerDistance: 1.5
+  wallPushbackUnits: 0.1
+--- !u!114 &6447224301430714198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618094296350858843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a76577d72dd62a4a9635f3e20f14a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pheromoneSteerStrength: 1
+  pheromoneSteerDistance: 3
+  pheromoneGrowthRate: 2
+  pheromoneDecayRate: 0.999
